@@ -137,7 +137,7 @@ function checkBiggestChange(arr) {
     }
   }
   console.log(
-    "Greatest Increase in Profits/Losses: " + month + " " + currentChange
+    "Greatest Increase in Profits/Losses: " + month + " " + "$" + currentChange
   );
 }
 
@@ -160,7 +160,7 @@ function checkSmallestChange(arr) {
     }
   }
   console.log(
-    "Greatest Decrease in Profits/Losses: " + month + " " + currentChange
+    "Greatest Decrease in Profits/Losses: " + month + " " + "$" + currentChange
   );
   return currentChange;
 }
